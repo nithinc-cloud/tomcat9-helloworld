@@ -11,7 +11,7 @@ build:
   image_template: tomcat9
 
 deploy:
-  context: nithin-ecloud/DEV
+  context: nithinc-cloud/DEV
   replicas: 2
   port: 
    - 8080
