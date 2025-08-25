@@ -1,7 +1,7 @@
 app:
   name: Tomcat Loadgen
   code: TCLG
-  notify: appzdev@cloudbourne.co
+  notify: nchelath@ecloudcontrol.com
 
 build:
   version: 0.3
@@ -11,7 +11,7 @@ build:
   image_template: tomcat9
 
 deploy:
-  context: alpha/TEST
+  context: nithin-ecloud/DEV
   replicas: 2
   port: 
    - 8080
